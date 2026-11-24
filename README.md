@@ -65,7 +65,16 @@ node skills/kiri-ui/scripts/audit-ui.mjs path/to/styles.css
 
 ---
 
-## Credits & License
+## Acknowledgments
 
-- Design system analysis and distilled patterns inspired by [`libracoder/kiri`](https://github.com/libracoder/kiri) (Apache-2.0).
-- This skill package is licensed under the [MIT License](./LICENSE).
+This skill is deeply inspired by and distilled from [**Kiri**](https://github.com/libracoder/kiri) by [`@libracoder`](https://github.com/libracoder) (licensed under Apache-2.0).
+
+Special thanks to the Kiri project for demonstrating how extraordinary a hand-crafted, zero-framework desktop UI can be — from its disciplined 5-tier neutral surface palette, strict 4-step typography scale, and `color-mix()` token derivations, to its GPU-only motion, 38-language RTL resilience, and executable headless-browser UI invariants.
+
+If you love this UI style, please check out and star [`libracoder/kiri`](https://github.com/libracoder/kiri)!
+
+---
+
+## License
+
+This skill package is released under the [MIT License](./LICENSE). Design tokens, layout concepts, and invariant testing patterns are adapted from [libracoder/kiri](https://github.com/libracoder/kiri) (Apache-2.0).

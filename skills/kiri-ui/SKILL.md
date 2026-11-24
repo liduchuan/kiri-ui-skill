@@ -101,3 +101,7 @@ Load these references only as needed for the task at hand:
    node scripts/audit-ui.mjs path/to/styles.css
    ```
    Confirm zero font-size scale violations, high logical-property adoption, `prefers-reduced-motion` support, and GPU-only keyframes. For browser/WebView projects, add the runtime CSSOM/DOM invariants from [references/verification-and-ci.md](./references/verification-and-ci.md).
+
+## Acknowledgments
+
+Distilled with gratitude from [libracoder/kiri](https://github.com/libracoder/kiri) (Apache-2.0), whose hand-written stylesheet and automated UI invariant suite originated the surface ladder, typography discipline, motion guards, and multi-language resilience documented here.
